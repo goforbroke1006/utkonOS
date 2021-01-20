@@ -1,7 +1,7 @@
 #!/bin/bash
 
 KERNEL=./build/kernel.bin
-ISO=./build/utkonOS.iso
+ISO=./utkonOS.iso
 
 set -e
 
