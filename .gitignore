@@ -1,7 +1,1 @@
-.idea/
-
-*.bin
-*.o
-*.iso
-
-/build/
+/.idea
