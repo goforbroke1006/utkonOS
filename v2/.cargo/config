@@ -10,12 +10,12 @@ target = "x86_64-utkon-os.json"
 [unstable]
 build-std = [
     "core",
-#    "compiler_builtins",
+    "compiler_builtins",
 ]
 build-std-features = [
 #    "compiler-builtins-mem"
 ]
 
 #[target.x86_64-utkon-os.json]
-[target.rustflags]
-link-arg = ["-nostdlib", "dynamic_lookup"]
+#[target.rustflags]
+#link-arg = ["-nostdlib", "dynamic_lookup"]
