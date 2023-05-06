@@ -5,7 +5,6 @@
 
 [build]
 target = "x86_64-utkon-os.json"
-#target = "arcv2-none-elf32"
 
 [unstable]
 build-std = [

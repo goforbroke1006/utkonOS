@@ -13,4 +13,8 @@ rustup component add llvm-tools-preview
 
 sudo apt install gcc-multilib -y
 
-sudo apt-get install qemu-system -y
+# build ISO image
+sudo apt-get install -y xorriso
+sudo apt install -y mtools
+
+sudo apt-get install -y qemu qemu-system-x86

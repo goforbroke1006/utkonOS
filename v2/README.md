@@ -14,4 +14,9 @@ make image # to build bootloader image
 
 # to run bootloader image with QEMU
 qemu-system-x86_64 -drive format=raw,file=./target/x86_64-utkon-os/debug/bootimage-utkon_os.bin
+
+
+make iso
+
+qemu-system-x86_64 -cdrom ./target/utkon-os-2.iso
 ```
