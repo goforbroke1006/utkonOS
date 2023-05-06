@@ -8,6 +8,7 @@ authors = ["Sergei Cherkesov <go.for.broke1006@gmail.com>"]
 
 [dependencies]
 bootloader = "0.9.23"
+x86_64 = { version = "0.14.7", default-features = false, features = ["instructions", "inline_asm"] }
 
 
 # the profile used for `cargo build`

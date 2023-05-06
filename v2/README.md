@@ -13,10 +13,19 @@ make # to build binary
 make image # to build bootloader image
 
 # to run bootloader image with QEMU
-qemu-system-x86_64 -drive format=raw,file=./target/x86_64-utkon-os/debug/bootimage-utkon_os.bin
+qemu-system-x86_64 -drive format=raw,file=./target/x86_64-utkon-os/release/bootimage-utkon_os.bin
 
 
 make iso
 
 qemu-system-x86_64 -cdrom ./target/utkon-os-2.iso
+
+
+# to write on USB device
+dd if=./target/x86_64-utkon-os/release/bootimage-utkon_os.bin of=/dev/sdX && sync
+
 ```
+
+### useful links
+
+* https://github.com/rust-osdev/bootloader/tree/v0.9.23

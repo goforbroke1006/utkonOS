@@ -18,3 +18,6 @@ sudo apt-get install -y xorriso
 sudo apt install -y mtools
 
 sudo apt-get install -y qemu qemu-system-x86
+
+cargo install cargo-xbuild
+cargo install cargo-binutils
